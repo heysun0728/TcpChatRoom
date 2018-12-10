@@ -121,7 +121,6 @@ again:
 			char *colon = strchr(buf,':');
 			isFind=0;
 			char *slash = strchr(buf,'/');
-			userdata=fopen("userdata.txt","w");
 			userdata=fopen("userdata.txt","r");
 			while(fscanf(userdata,"%s",user)!=EOF){
 				//printf("%s %s\n",user,colon+1);
